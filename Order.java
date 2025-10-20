@@ -8,6 +8,7 @@ public class Order {
     
     public void addItem(MenuItem item) {
         items.add(item);
+        //addItem method has been modified with a additional statement to display item has been added
         System.out.println("Item " + item +" added");
     }
     
