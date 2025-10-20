@@ -10,7 +10,7 @@ public class RestaurantApp {
         MenuItem burger = new MenuItem("Burger", 5.49 + 1.00);
         MenuItem soda = new MenuItem("Soda", 1.99 + 1.00);
         
-        // Customer adds items to their order
+        // Changed to .addToOrder to reflect changes in the Order class
         customer.addToOrder(pizza);  // Collaborating with MenuItem and Order
         customer.addToOrder(burger);
         customer.addToOrder(soda);
