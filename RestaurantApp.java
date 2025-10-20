@@ -11,9 +11,9 @@ public class RestaurantApp {
         MenuItem soda = new MenuItem("Soda", 1.99 + 1.00);
         
         // Customer adds items to their order
-        customer.addMenuItemToOrder(pizza);  // Collaborating with MenuItem and Order
-        customer.addMenuItemToOrder(burger);
-        customer.addMenuItemToOrder(soda);
+        customer.addToOrder(pizza);  // Collaborating with MenuItem and Order
+        customer.addToOrder(burger);
+        customer.addToOrder(soda);
         
         // Customer places the order
         customer.placeOrder();  // Collaborating with Order to show order summary
